@@ -536,7 +536,7 @@ body {
 
 @media (min-width: 900px) {
   .practice__row > *:not(:last-child) {
-    margin: 0 0 0 0;
+    margin: 0px 0px 0px 0px;
   }
 
   .practice__column {
