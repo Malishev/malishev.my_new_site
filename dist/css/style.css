@@ -413,8 +413,24 @@ body {
 }
 
 .who__video {
-  flex: 0 0 597px;
-  margin-right: 120px;
+  flex: 0 0 57%;
+  position: relative;
+  padding: 0px 0px 42.25% 0px;
+}
+
+.who__video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.info__who {
+  flex: 1 1 auto;
+  padding: 0px 0px 0px 121px;
 }
 
 .info__who > *:not(:last-child) {
